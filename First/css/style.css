@@ -1,28 +1,60 @@
-div{
-    background-color: aquamarine;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+#box{
+    width:150px;
+    height:150px;
+    overflow-y:scroll;
+    border:1px solid grey;
 }
-
-div:hover{
-    background-color: red;
+body{
+    background-color: yellowgreen;
 }
-
-.box{
-    width: 150px;
+#first, #second, #third{
+    border-width:20px;
+    border-style:solid;
+    border-color: red;
+    width:150px;
     height:150px;
     margin: 5px;
 }
-
-#item,p{
-    color: brown;
+#second{
+    border-color:red orange green gray;
+    border-radius: 50%;
 }
 
-div p{
- background-color: yellow;
- color:blue;    
+#third{
+    width:1px;
+    height:1px;
+    border-color:red transparent green gray;
 }
 
-span{
-      background-color: red;
+a[href]{
+background-color: aquamarine;
 }
+
+a[target=_blank]{
+    background-color: greenyellow;
+}
+
+a:hover{
+    background-color: indianred;
+}
+
+h1::after{
+    content:" - Hello World!!!";
+}
+
+h1::first-letter{
+color: blueviolet;}
+
+ nav ul{
+    list-style:none;
+    background-color: khaki;
+}
+
+ul li{
+    display:inline-block;
+    border:1px dotted grey;
+    width:100px;
+    height:20px;
+    margin:5px;
+}
+
