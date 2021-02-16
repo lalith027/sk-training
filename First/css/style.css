@@ -1,0 +1,10 @@
+
+div{
+    font-family: Montserrat;
+    background-color: aquamarine;
+}
+@media only screen and (max-width: 600px) {
+    div{
+        background-color: yellow;
+    }
+}

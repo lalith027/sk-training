@@ -1,7 +1,8 @@
 
-a:visited {
-    color: transparent;
+a{
+    color: gray;
 }
+
 .fa-facebook-square:hover{
     color: #3b5998;
 }
