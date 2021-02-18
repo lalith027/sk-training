@@ -1,0 +1,26 @@
+:root {
+    --size-div:600px;
+}
+
+
+div{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aquamarine;
+    width: var(--size-div);
+    overflow: visible;
+
+}
+
+p{
+    width:300px;
+}
+@media only screen and (max-width: 600px) {
+    div{background-color:yellow;}
+
+}
+
+div img{
+    width:var(--size-div);
+    height: 200px;
+    object-fit:contain;
+}
