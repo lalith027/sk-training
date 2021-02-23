@@ -1,0 +1,92 @@
+
+
+.box1{
+    border-width: 30px 35px 60px 35px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    height: 0px;
+    width:0px;
+    margin-right: 300px;
+}
+
+.box2{
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    height: 0px;
+    width: 0px;
+    border-width:60px 35px 30px 35px;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+}
+
+
+.box3{
+    position: relative;
+    bottom: 170px;
+    left: 220px;
+    height: 0px;
+    width: 0px;
+    border-width:35px 30px 35px 70px;
+    border-style: solid;
+    border-color: transparent transparent transparent olivedrab;
+}
+
+.box4{
+    position: relative;
+    bottom: 240px;
+    left: 300px;
+    height: 0px;
+    width: 0px;
+    border-width:35px 70px 35px 30px;
+    border-style: solid;
+    border-color: transparent olivedrab transparent transparent;
+}
+
+
+.box5{
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+    height: 0px;
+    width: 0px;
+    border-width:40px 40px 40px 40px;
+    border-style: solid;
+    border-color:transparent transparent yellow yellow;
+}
+
+
+.box6{
+    position: relative;
+    bottom: 270px;
+    left: 120px;
+    height: 0px;
+    width: 0px;
+    border-width:40px 40px 40px 40px;
+    border-style: solid;
+    border-color: transparent yellow yellow transparent;
+}
+
+
+
+.box7{
+    position: relative;
+    bottom: 330px;
+    left: 240px;
+    height: 0px;
+    width: 0px;
+    border-width:40px 40px 40px 40px;
+    border-style: solid;
+    border-color: blue transparent transparent blue;
+}
+
+.box8{
+    position: relative;
+    bottom: 415px;
+    left: 340px;
+    height: 0px;
+    width: 0px;
+    border-width:40px 40px 40px 40px;
+    border-style: solid;
+    border-color: blue blue transparent transparent;
+}
