@@ -1,71 +1,27 @@
-div{
-    position:relative;
-    width:200px;
-    height:200px;
-    margin:50px;
-    border:5px solid gray;
-     
-}
-
-.addition{
-    box-shadow: 0 0 0 5px red, 0 0 0 20px yellow;
-    border-radius: 10px; 
-}
-.text{
-    text-shadow: 5px 5px 5px grey;
-    font-size: 48px;
-}
-.gradient{
-    background-image: linear-gradient(to top right, red,yellow, grey);
-    transform: rotate(45deg);
-    transform-origin:top center;
-    margin: 300px;
+#container{
+    width: 700px;
+    height:300px;
+    border: 1px solid grey;
+    display: flex;
+    background-color: khaki;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 .box{
-    background-image: linear-gradient(to top right, red,yellow, grey);
-    transform: translate(100px, 100px) rotate(90deg) scale(1, 1) skew(30deg);
-}
-
-.practice{
-    background-image: linear-gradient(to bottom left, orange, blue);
-    transform: rotate(135deg);
-    transform-origin:top;
-    width:300px;
-    height:200px;
-    box-shadow: 5px 5px 5px gray;
-    margin:300px;
-}
-
-.anime{
-    transition: width 3s
-}
-.anime:hover{
-    width:400px;
-}
-
-@keyframes clr{
-    from{
-        background:red;
-    }    
-    to{background:greenyellow;}
-}
-
-@keyframes clr2{
-0%{ background: red;}
-25%{background: rgb(134, 80, 80);}
-50%{background: rgb(80, 57, 57);}
-100%{background: rgb(223, 163, 163);}
-}
-
-
-.animation{
-    animation-name: clr2;
-    animation-duration:3s;
-    animation-iteration-count: infinite;
-}
-
-img{
-    width:100px;
+    width: 100px;
     height: 100px;
-    filter: grayscale(100%);
+    background-color: aquamarine;
+    margin:5px;
+    border: 1px solid gray;
+    flex-grow: 1;
+    flex-basis:150px;
 }
+
+#box1{
+    flex-grow:2;
+   /*flex-shrink:4;*/
+   align-self:flex-end;
+}
+
