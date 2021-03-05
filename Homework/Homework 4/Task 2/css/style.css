@@ -78,9 +78,10 @@ body{
     grid-template-columns: repeat(2,1fr);
     grid-column-gap:24px;
     grid-row-gap:64px;
-    grid-auto-rows:225px;
-    grid-auto-rows:minmax(100px auto);
+    grid-auto-rows:230px;
+    grid-auto-rows:minmax(200px auto);
     margin: 10px;
+    
    
 
 }
@@ -100,9 +101,35 @@ body{
 
 .included1{
  
-    background-color: brown;
+ 
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-     grid-gap: 1px
+    grid-gap: 0px 10px;
+    justify-items: center;
+    align-items: center;
+   }
+
+.light1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px 10px;
+    justify-items: center;
+    align-items: center;
+
 }
+
+.text1{
+    font-family: Open Sans;
+    font-weight: 200;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.text2{
+    color:#AD4328;
+}
+
+p{letter-spacing: 1px;
+font-weight: 600;
+font-size:16px}
