@@ -60,8 +60,9 @@ function browsersync() {
                 
                 function buildcopy() {
                     return src([ 
+                        'app/css/**/*.min.css',
+                        'app/js/**/*.min.js',
                         'app/images/dest/**/*',
-                        'app/css/*.min.css',
                         'app/**/*.html',
                         ], { base: 'app' })
                     .pipe(dest('dist'))
@@ -80,5 +81,5 @@ function browsersync() {
     exports.styles = styles;
     exports.images = images;
     exports.cleanimg = cleanimg;
-    // exports.build = series(cleandist, styles, scripts, images, buildcopy);
+    exports.build = series(cleandist, styles, scripts, images, buildcopy);
     exports.default = parallel(scripts, browsersync, startwatch);
