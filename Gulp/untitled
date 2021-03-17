@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    class Person{
+        constructor(name){
+            this.name = name;
+            this.age = 0;
+        }
+        say(){
+            console.log("Hello from " + this.name );
+        }
+    }
+
+    class Son extends Person{
+        constructor(name, surname){
+            super(name);
+            this.surname = surname;
+        }
+        say(){
+            super.say();
+            console.log("Hello from " + this.name +" " + this.surname );
+        }
+
+    }
+       let son1 =  new Son("Alex","Sch");
+       let son2 =  new Son("Andrei","Sch");
+       let son3 =  new Son("Serg","Sch"); 
+
+       let arr = [son1, son2,son3];
+       let min = arr[0];
+  
+       for(let i=1;i<arr.length;i++){
+           if(min.name.length > arr[i].name.length){
+               min = arr[i];
+           }
+       }
+
+       console.log(min.name);
+
+       String.prototype.getLength = function(){
+           return this.length;
+       }
+       let str ="Hi";
+       console.log(str.getLength());
+
+
+
+        // console.log(son1.say());
+        // console.log(son2.say());
+    </script>
+</body>
+
+</html>
