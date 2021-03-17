@@ -81,4 +81,5 @@ function browsersync() {
     exports.images = images;
     exports.cleanimg = cleanimg;
     // exports.build = series(cleandist, styles, scripts, images, buildcopy);
+    exports.build = series(cleandist, styles, buildcopy)
     exports.default = parallel(scripts, browsersync, startwatch);
