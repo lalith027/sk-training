@@ -1,9 +1,0 @@
-li:before{
-    content: '\25ba';
-    color: purple;
-}
-
-li{
-    list-style: none;
-    text-indent: 1em;
-}
