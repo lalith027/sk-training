@@ -1,0 +1,340 @@
+body{
+    background-color: #fafafa;
+}
+header{
+    background: #e5e5e5;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 100px;
+    padding: 60px;
+}
+
+#container1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 1000px;
+    height: 100px;
+     padding: 60px; 
+    align-items: baseline;
+    
+}
+
+.box1{
+    margin-top: -15px;
+}
+
+.text{
+    align-self: flex-start;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 60px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+
+.icon1{
+align-self:flex-end;
+padding:0;
+margin-bottom:0;
+}
+
+.picture {
+ margin: 0px 0px 0px 0px;
+}
+.icon{
+    align-self:flex-end;
+    align-content: flex-end;
+    padding: 0;
+ }
+
+p{  line-height: 50px;
+    margin:0px;
+    padding:0px;
+}
+
+.rectangle{
+    line-height:0px;
+    margin:0px;
+    padding:0px;
+    margin-left:-15px;
+}
+
+.first{
+    width: 1010px;
+    height: 580px;
+}
+.image1{
+    margin:60px 60px 0px 60px;
+}
+
+.text2{
+    display: flex;
+    width: 1010px;
+    height: 70px;
+    margin: 30px 60px 150px 60px;
+    font-weight: 400;
+    font-family: Fira Sans;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+#container2{
+    display: flex;
+    width: 1010px;
+  
+    justify-content: space-between;
+    margin: 0px 60px 0px 60px;
+}
+
+.test1{
+    display: flex;
+    width: 250px;
+    height: 350px;
+}
+
+
+.test2{
+    display: flex;
+    width: 250px;
+    height: 350px;
+}
+
+.test3{
+    width: 250px;
+    height: 350px;
+}
+
+.center
+{
+      position:relative;
+      bottom: 180px;
+      left: 90px;
+      z-index: 2;
+}
+
+.polygon
+{
+      position:relative;
+      bottom: 202px;
+      left: 47px;
+      z-index: 2;
+}
+
+#container3{
+    display: flex;
+    flex-direction: row;
+    width: 1010px;
+    justify-content:space-between;
+    margin: 0px 60px 0px 60px;
+}
+.after1{
+    width:480px;
+    height: 87px;
+    opacity: 70%;
+    font-family: Fira Sans;
+    font-weight: 400;
+    font-weight: 18px;
+    line-height:28px;
+    align-self: flex-start;
+}
+
+.after2{
+    align-self:baseline;
+    font-family: Fira Sans;
+    font-weight: 500;
+    width: 130px;
+    height: 30px;
+    background-color: #EF8E70;
+    text-align:center;
+    color: #ffffff;
+    padding: 10px 0px 0px 0px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    opacity: 20%;
+    margin: 100px 60px 40px 60px;
+    width: 1010px;
+  }
+
+  #container4{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 1050px;
+    margin: 0px 0px 50px 60px;
+    }
+
+.award1{
+   align-self: flex-start;
+   margin: 0px 330px 0px 0px;
+}
+
+.award{
+    align-self:stretch;
+    font-family: Fira Sans;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+.text3 , .text4{
+    line-height: 30px;
+    width: 170px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+#container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+    width: 1080px;
+    height: 200px;
+    margin: 0px 0px 0px 0px;
+}
+
+.navigation1{
+   justify-content: space-between;
+    font-family: Fira Sans;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    margin: 0px 50px 0px 30px;
+}
+
+.year{
+    margin-right:-50px;
+}
+   
+main{
+    background-color: #fafafa;
+}
+.client{
+   position: relative ;
+   top:100px;
+   left: 60px;
+   font-family: Fira Sans;
+   font-weight: 600;
+   font-size: 40px;
+}
+.text5{
+    position: relative ;
+    top:-20px;
+    left: 407px;
+    width:400px;
+    height: 81px;
+    font-family: Fira Sans;
+    font-weight: 400;
+    line-height: 28px;
+}
+.underline{
+    position: relative ;
+    top:-10px;
+    left: 700px;
+    width:253px;
+    height: 19px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.final{
+    position: relative ;
+    top:8px;
+    left: 700px;
+    width:400px;
+    height: 56px;
+    font-family: Fira Sans;
+    font-weight:400;
+}
+
+#container6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1010px;
+    margin: 60px 60px 100px 110px;
+   
+}
+
+footer{
+background-color: #515151;
+}
+
+#container7{
+    display: flex;
+    flex-direction: row;
+    width: 1010px;
+    justify-content: space-between;
+    padding: 70px 70px 46px 120px
+}
+
+#box111{
+    margin-right: 113px;
+}
+#box222, #box333, #box444, #box555, #box666{
+    font-family: Fira Sans;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;}
+
+#box777{
+    font-family: Fira Sans;
+    font-size: 18px;
+    line-height: 28px;
+    color:#222222;
+    width:160px;
+    height: 20px;
+    background-color: #F5F4FF;
+    text-align:left;
+    padding: 5px 10px 10px 10px;
+    align-self: baseline;
+    margin-left: 95px;}
+    
+#box888{
+    font-family: Fira Sans;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    width:80px;
+    height: 20px;
+    background-color: #C6B393;
+    text-align: center;
+    padding: 5px 10px 10px 10px;
+    letter-spacing: 4px;
+}
+
+hr.border1{
+    width: 1010px;
+    height: 0.5px;
+    background-color:gray;
+    border:1px solid gray;
+    margin: 0px 60px 0px 120px;
+}
+
+#container8{
+    display: flex;
+    flex-direction: row;
+    width: 1010px;
+    justify-content: space-around;
+    padding: 35px 60px 30px 60px
+}
+
+#box1111, #box2222, #box3333, #box4444{
+    font-family: Fira Sans;
+    font-size: 18px;
+    line-height: 28px;
+    color: gray;
+    margin-left: 35px;
+}
+#box5555{
+    color: gray;
+    margin: 10px -100px 10px 400px;
+}
