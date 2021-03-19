@@ -23,6 +23,13 @@ nav{
 
 }
 
+.white{
+    color:white
+}
+
+.grey{
+    color:#adadad;
+}
 footer{
     background-color: #141414;
     padding: 30px 0px 30px 0px;
@@ -41,13 +48,6 @@ footer{
 #Input4{
  height: 140px;
 }
-.col-md-6{
-    border: 1px solid red;
-}
-
-.col-md-3{
-    border: 1px solid red;
-}
 
 .Info{
     font-size: 30px;
@@ -58,49 +58,4 @@ footer{
     font-size: 14px;
 }
 
-.col, .col-6, .col-4{
-    
-    border: 6px solid red;
-}
-
-.col-sm-8 {
-   
-    border: 10px solid green;
-} 
-
-.col-sm-4  {
-   
-    border: 10px solid green;
-} 
-
-.col-sm  {
-   
-    border: 10px solid green;
-} 
-
-.example-bs .row {
-    text-align:center;
-}
-
-
-.col-md-4{
-    border: 2px solid purple;
-}
-
-.col-md-3.offset-md-3{
-    border: 2px solid purple;
-}
-
-.col-md-6.offset-md-3{
-    border: 2px solid purple;
-
-}
-
-.col-sm-9{
-    border: 3px solid orange;
-}
-
-.col-8.col-sm-6{
-    border: 4px solid royalblue;
-}
 
