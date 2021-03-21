@@ -11,7 +11,7 @@ console.log((i==0)?true:false);
 
 let a = 6; b = 3;
 
-console.log( a>b?true:false);
+console.log(a>b?true:false);
 
 let str = prompt("Input your digit",0);
 
