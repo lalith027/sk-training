@@ -1,25 +1,29 @@
-// let a = 0;
-// let b = 2;
-// let c = 0;
 
-// a = prompt("Input your digit", "0");
+function Evaluate (a,b){
+  let c;
+  if (a > 0 || ! a < 10 ) {
+        c = a + b * 3;
+      }  else {
+        //a==0
+        c = a * 2 + b * 4;
+      } return c;
+}
+let a = 0;
+let b = 2;
+let c = 0;
 
-// if (a != null) {
 
-//   console.log("ok was pressed");
-//   a = parseInt(a);
-//   if (a > 0 && a < 10 ) {
-//     c = a + b * 3;
-//   }  else {
-//     //a==0
-//     c = a * 2 + b * 4;
-//   }
-// } else {
-//   console.log("cancel was pressed");
-// }
+if (a != null) {
+  console.log("ok was pressed");
+  a = parseInt(prompt("Input your digit", "0")); 
+  c = Evaluate(a,1);
 
-// let d = (a>0)? a+b:a*b;
-// alert(c);
+} else {
+  console.log("cancel was pressed");
+}
+
+let d = (a>0)? a+b:a*b;
+alert(c);
 
 // alert(c);
 // c++;
