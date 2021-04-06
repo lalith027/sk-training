@@ -33,3 +33,12 @@ for (let i = 0; i < result.length; i++) {
 }
 
 console.log(result);
+
+
+let str1  = "lorem ipsum is simply dummy loreman";
+let arr = str1.split (' ');
+for (let i =0; i < arr.length; i++){
+    if(arr[i].length >=5){
+        console.log(arr[i]);
+    }
+}
