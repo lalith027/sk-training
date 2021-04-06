@@ -15,9 +15,9 @@
 
 
 
-let arr = ['html', 'css', 'javascript']; 
-let nameLengths = arr.map((name) => name.length);
-console.log(nameLengths);
+// let arr = ['html', 'css', 'javascript']; 
+// let nameLengths = arr.map((name) => name.length);
+// console.log(nameLengths);
 
 // let arr = ['html', 'css', 'javascript']; 
 // arr.forEach(function(item, i, arr) 
@@ -47,3 +47,14 @@ console.log(nameLengths);
 //   } else {
 //     console.log(res);
 //   }
+
+
+// let arr = [1,9,22,7,6]
+// arr.splice(3,0,"8");
+// alert(arr);
+
+let arr = [1,2,3,4]
+
+Math.random(arr);
+
+console.log(arr);
